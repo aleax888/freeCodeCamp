@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="title">Sign in</h1>
+    <p id="description">Complete the form</p>
+    <div id="container">
+        <form action="" id="survey-form">
+            <fieldset>
+                <label id="name-label" for="name">Name<input required type="text" name="name" id="name"
+                        placeholder="What is your name? (e.g. Pepito)"></label>
+                <label id="email-label" for="email">Email<input required type="email" name="email" id="email"
+                        placeholder="What is your email? (e.g. pepe@coolmail.net)"></label>
+                <label id="number-label" for="number">Age<input type="number" name="number" id="number" min="0"
+                        max="100" placeholder="How old are you? (e.g. 15)"></label>
+                <label for="dropdown">
+                    Account privacy
+                    <select name="dropdown" id="dropdown">
+                        <option value="option1">Private</option>
+                        <option value="option2">Public</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="male">Male<input type="radio" name="gender" id="male" value="male"></label>
+                <label for="female">Female<input type="radio" name="gender" id="female" value="female"></label>
+                <label for="undefined">Undefined<input type="radio" name="gender" id="undefined"
+                        value="undefined"></label>
+            </fieldset>
+            <fieldset>
+                <label for="tag"><input type="checkbox" name="tag" id="tag" value="tag1">Soccer</label>
+                <label for="tag"><input type="checkbox" name="tag" id="tag" value="tag2">Video Games</label>
+                <label for="tag"><input type="checkbox" name="tag" id="tag" value="tag3">Art</label>
+                <label for="tag"><input type="checkbox" name="tag" id="tag" value="tag4">Cars</label>
+                <label for="tag"><input type="checkbox" name="tag" id="tag" value="tag5">Anime</label>
+            </fieldset>
+            <fieldset>
+                <textarea name="" id=""></textarea>
+            </fieldset>
+            <input type="submit" value="SUBMIT" id="submit">
+        </form>
+    </div>
+</body>
+
+</html>
